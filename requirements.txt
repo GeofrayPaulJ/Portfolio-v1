@@ -1,0 +1,7 @@
+asgiref
+Django==4.1.5
+python-dateutil
+six
+sqlparse
+tzdata
+dotenv
