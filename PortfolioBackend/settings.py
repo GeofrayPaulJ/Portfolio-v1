@@ -23,7 +23,7 @@ load_dotenv()
 # Security settings
 
 SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'default-secret-key')
-DEBUG = os.getenv('DEBUG', 'True') == 'True'
+DEBUG = os.getenv('DEBUG', 'False') == 'False'
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '.vercel.app','geofraypaul.me']
 
 # Application definition
