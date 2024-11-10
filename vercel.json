@@ -3,10 +3,8 @@
     {
       "src": "PortfolioBackend/wsgi.py",
       "use": "@vercel/python",
-      "config": {
-        "maxLambdaSize": "50mb",
-        "pythonVersion": "3.9"
-      }
+      "config": { "maxLambdaSize": "50mb" },
+      "buildCommand": "echo 'Skipping pip install'"
     }
   ],
   "routes": [
