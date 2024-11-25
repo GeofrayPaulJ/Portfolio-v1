@@ -24,7 +24,7 @@ load_dotenv()
 
 SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'default-secret-key')
 DEBUG = os.getenv('DEBUG', 'True') == 'True'
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '.vercel.app','portfolio-v1-m6ul.onrender.com','portfolio-v1-m6ul.onrender.com','geofraypaul.me']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '.vercel.app','portfolio-v1-m6ul.onrender.com','portfolio-v1-m6ul.onrender.com','geofraypaul.me','https://geofraypaul.info/','geofraypaul.info']
 
 # Application definition
 INSTALLED_APPS = [
